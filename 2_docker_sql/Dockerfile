@@ -1,4 +1,5 @@
 # docker build -t test:pandas .
+# docker run -it test:pandas
 FROM python:3.9
 
 RUN pip install pandas
